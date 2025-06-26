@@ -605,7 +605,7 @@ label staret:
 
 label start:
     scene bg_room at custom_size_transform with fade
-    play music "audio/bgmusictut.mp3" volume 0.1 loop    
+    play music "audio/tutorialbgm.mp3" volume 0.1 loop    
 
     voice "audio/carl/line1.MP3"
     show expression carl.get_image("normal") at center with dissolve
